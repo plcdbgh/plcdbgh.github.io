@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>我的文章标题</title>
+</head>
+<body>
+    <h1>欢迎来到我的网站</h1>
+
+    <!-- Twikoo评论容器 -->
+    <div id="tcomment"></div>
+
+    <!-- Twikoo脚本 -->
+    <script src="https://cdn.staticfile.org/twikoo/1.6.22/twikoo.all.min.js"></script>
+    <script>
+        twikoo.init({
+            envId: 'https://zjplc.jxdd.eu.org/', // 替换成你的环境ID或地址
+            el: '#tcomment', // 替换成你的评论容器的ID
+        });
+    </script>
+</body>
+</html>
